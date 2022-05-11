@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trần Thành Nam</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
+    <link href="fontawesome-free-5.15.4-web/css/all.min.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<div class="header"> 
+    <div class="header1">
+        <div class="container">
+            <div class="top">
+                <div class="left">
+                    <a href="#" class="htop1" title="mon@mona.media">
+                        <i class="fas fa-envelope"></i>
+                        <span>mon@mona.media</span>
+                    </a>
+                    <a href="#" class="htop1"  title="1900 636 648">
+                        <i class="fas fa-phone"></i>
+                        <span>1900 636 648</span>
+                    </a>
+                </div>
+                <div class="right">
+                    <a href="#" class="htop1">
+                        <span>Đăng nhập</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>     
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+      <div class="container">
+          <div class="header2">
+              <div class="logo">
+                  <span><a href="Trangchu.html">
+                      <img src="images/logo-nonson-1.png" width="169px" height="58px">
+                  </a></span>
+              </div>
+              <ul class="nav navbar-nav">                  
+                  <li class="active"><a href="Trangchu.html">Trang chủ</a></li>
+                  <li><a href="TrangGioiThieu.html">Giới thiệu</a></li>
+                  <li class="dropdow"><a href="TrangSanPham.html">Sản phẩm <i class="fas fa-angle-down"></i></a>
+                    <ul class="dropmenu">
+                      <li><a href="">Nón 3/4</a><br></li>
+                      <li><a href="">Nón Full Face</a></li>
+                      <li><a href="">Nón lật cầm</a></li>
+                      <li><a href="">Nón trẻ em</a></li>
+                      <li><a href="">Nón Carbon</a></li>
+                      <li><a href="">Phụ kiện</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="TrangTinTuc.html">Tin tức</a></li>
+                  <li><a href="TrangLienHe.html">Liên hệ</a></li>
+              </ul>
+              <ul class="search-drive">
+                  <li><a href="#"><i class="fas fa-search"></i></a></li>
+                  <li class="header-divider"></li>
+                  <li>
+                    <div id="button" data-toggle="tooltip" data-placement="right" title="Giỏ hàng">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span id="mini"></span>
+                    </div>
+                    <div id="thongbaorong">Chưa có sản phẩm nào trong giỏ hàng</div>
+                    <div id="mini-list-product">
+                      <div id="dsspan-icon">
+                      </div>
+                      <div class="span-icon">
+                        <div class="alltongphu">
+                          <strong>Tổng phụ:</strong>
+                          <span class="woocommerce-Price-amount amount"><span id="tongphu"></span>
+                          <span class="woocommerce-Price-currencySymbol">. 000₫</span></span>
+                        </div>
+                        <div class="linkgiohang">
+                          <a href="TrangGioHang.html" class="xemgh">XEM GIỎ HÀNG</a>
+                        </div>
+                        <div class="linkthanhtoan">
+                          <a href="TrangGioHang.html" class="thanhtoan">THANH TOÁN</a>
+                        </div>
+                      </div>
+                    </div>                   
+                  </li>
+              </ul>
+          </div>
+      </div>
+    </nav>      
+    <div class="container-fluid">
+      <div class="body1">
+          <!-- Swiper -->
+      <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide">
+              <img src="images/1.jpg" />
+              </div>
+              <div class="swiper-slide">
+              <img src="images/2.png" />
+              </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+          </div>
+      </div>
+      <div class="body2">
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-4">
+                    <div class="card">
+                      <div class="theme">
+                          <div class="card-theme">
+                              <i class="fas fa-truck"></i>
+                          </div>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">FREESHIP</h5>
+                        <p class="card-text">Lorem Ipsum chỉ đơn giản là một đoạn văn bản giả, được dùng vào việc trình bày.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                      <div class="card">
+                        <div class="theme">
+                            <div class="card-theme">
+                              <i class="fas fa-share"></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">HOÀN TIỀN 100%</h5>
+                          <p class="card-text">Lorem Ipsum chỉ đơn giản là một đoạn văn bản giả, được dùng vào việc trình bày.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="card">
+                        <div class="theme">
+                            <div class="card-theme">
+                              <i class="far fa-comment-dots"></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">HỖ TRỢ 24/7</h5>
+                          <p class="card-text">Lorem Ipsum chỉ đơn giản là một đoạn văn bản giả, được dùng vào việc trình bày.</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+          </div>
+      </div>
+      <div class="body3">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8" >
+              <div class="dophuot">
+                <a href="#"><img src="images/banner-5.png" width="750px" height="420px" /></a>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="thongbao">
+                <div class="thongbao1">
+                  <a href="#"><img src="images/Banner-Website.jpg" width="350px" height="193px" /></a>
+                </div>
+                <div class="thongbao2"></div>.
+                <div class="thongbao1">
+                  <a href="#"><nav class="mau"></nav></a>
+                  <a href="#"><img src="images/banner-slide1-web.png" width="350px" height="193px" /></a>
+                </div>
+            </div>
+          </div>
+        </div>   
+        </div>
+      </div>
+      <div class="body4">
+        <div class="container">
+          <!-- Nav pills -->
+          <ul class="nav nav-pills" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="pill" href="#banchay">BÁN CHẠY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="pill" href="#noibat">NỔI BẬT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="pill" href="#giatot">GIÁ TỐT</a>
+            </li>
+          </ul>
+        
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div id="banchay" class="container tab-pane active"><br>
+              <div class="swiper nam">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href=""><img src="images/kinhthang2.jpg" width="216px" height="216px" ></a>
+                    <div class="ttsp">
+                      <a href=""><p class="tensp">Kính thẳng</p></a>
+                      <span class="price">180,000 ₫</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href=""><img src="images/mg6972-1.jpg" width="216px" height="216px" ></a>
+                    <div class="ttsp">
+                      <a href=""><p class="tensp">Royal M20C Design</p></a>
+                      <span class="price">590,000 ₫</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href=""><img src="images/mg6915-1.jpg" width="216px" height="216px" ></a>
+                    <div class="ttsp">
+                      <a href=""><p class="tensp">Royal M138 V.3</p></a>
+                      <span class="price">1,500,000 ₫</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href=""><img src="images/nonbaohiemroyalm08tem15.jpg" width="216px" height="216px" ></a>
+                    <div class="ttsp">
+                      <a href=""><p class="tensp">Royal M08 V.1</p></a>
+                      <span class="price">1,050,000 ₫</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href=""><img src="images/kinhcong1.jpg" width="216px" height="216px"></a>
+                    <div class="ttsp">
+                      <a href=""><p class="tensp">Kính Bubble</p></a>
+                      <span class="price">180,000 ₫</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href=""><img src="images/img7052.jpg" width="216px" height="216px" ></a>
+                    <div class="ttsp">
+                      <a href=""><p class="tensp">Royal M28 Carbon</p></a>
+                      <span class="price">2,950,000 ₫</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href=""><img src="images/mg7356.jpg" width="216px" height="216px" ></a>
+                    <div class="ttsp">
+                      <a href=""><p class="tensp">Royal M139 Design</p></a>
+                      <span class="price">685,00 ₫</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href=""><img src="images/mg0888.jpg" width="216px" height="216px" ></a>
+                    <div class="ttsp">
+                      <a href=""><p class="tensp">Kính mặt nạ</p></a>
+                      <span class="price">350,00 ₫</span>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>        
+            </div>
+            <div id="noibat" class="container tab-pane fade"><br>
+              <div class="swiper nam">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href=""><img src="images/mg0888.jpg" width="216px" height="216px" ></a>
+                    <div class="ttsp">
+                      <a href=""><p class="tensp">Kính mặt nạ</p></a>
+                      <span class="price">350,000 ₫</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href=""><img src="images/img7052.jpg" width="216px" height="216px" ></a>
+                    <div class="ttsp">
+                      <a href=""><p class="tensp">Royal M28 Carbon</p></a>
+                      <span class="price">2,950,000 ₫</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href=""><img src="images/kinhday1.jpg" width="216px" height="216px" ></a>
+                    <div class="ttsp">
+                      <a href=""><p class="tensp">Kính dây</p></a>
+                      <span class="price">100,000 ₫</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href=""><img src="images/mg6972-1.jpg" width="216px" height="216px" ></a>
+                    <div class="ttsp">
+                      <a href=""><p class="tensp">Royal M20C Design1</p></a>
+                      <span class="price">590,000 ₫</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href=""><img src="images/mg7356.jpg" width="216px" height="216px"></a>
+                    <div class="ttsp">
+                      <a href=""><p class="tensp">Royal M139 Design</p></a>
+                      <span class="price">685,000 ₫</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href=""><img src="images/mg6915-1.jpg" width="216px" height="216px" ></a>
+                    <div class="ttsp">
+                      <a href=""><p class="tensp">Royal M138 V.3</p></a>
+                      <span class="price">1,500,000 ₫</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href=""><img src="images/nonbaohiemroyalm08tem15.jpg" width="216px" height="216px" ></a>
+                    <div class="ttsp">
+                      <a href=""><p class="tensp">Royal M08 V.1</p></a>
+                      <span class="price">1,050,000 ₫</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href=""><img src="images/mg8257-1.jpg" width="216px" height="216px" ></a>
+                    <div class="ttsp">
+                      <a href=""><p class="tensp">Royal H1</p></a>
+                      <span class="price">840,00 ₫</span>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+            </div>
+            <div id="giatot" class="container tab-pane fade"><br>
+              <div class="swiper nam">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href=""><img src="images/mg7356.jpg" width="216px" height="216px" ></a>
+                    <div class="ttsp">
+                      <a href=""><p class="tensp">Royal M139 Design</p></a>
+                      <span class="price">685,000 ₫</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href=""><img src="images/mg1122.jpg" width="216px" height="216px" ></a>
+                    <div class="ttsp">
+                      <a href=""><p class="tensp">Royal M14 V.2</p></a>
+                      <span class="price">1,300,000 ₫</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href=""><img src="images/kinhday1.jpg" width="216px" height="216px" ></a>
+                    <div class="ttsp">
+                      <a href=""><p class="tensp">Kính dây</p></a>
+                      <span class="price">100,000 ₫</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href=""><img src="images/nonbaohiemroyalm08tem15.jpg" width="216px" height="216px" ></a>
+                    <div class="ttsp">
+                      <a href=""><p class="tensp">Royal M08 V.1</p></a>
+                      <span class="price">1,050,000 ₫</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href=""><img src="images/mg8257-1.jpg" width="216px" height="216px"></a>
+                    <div class="ttsp">
+                      <a href=""><p class="tensp">Royal H1</p></a>
+                      <span class="price">840,000 ₫</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href=""><img src="images/mg6972-1.jpg" width="216px" height="216px" ></a>
+                    <div class="ttsp">
+                      <a href=""><p class="tensp">Royal M20C Designn</p></a>
+                      <span class="price">590,000 ₫</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href=""><img src="images/mg6915-1.jpg" width="216px" height="216px" ></a>
+                    <div class="ttsp">
+                      <a href=""><p class="tensp">Royal M138 V.3</p></a>
+                      <span class="price">1,500,000 ₫</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href=""><img src="images/mg0888.jpg" width="216px" height="216px" ></a>
+                    <div class="ttsp">
+                      <a href=""><p class="tensp">Kính mặt nạ</p></a>
+                      <span class="price">350,00 ₫</span>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="body5">
+        <div class="swiper vote">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="box-icon">
+                <img src="images/glasses-magazine-reading-lovely-smile-girl-dress-370x309-150x150.jpg" width="100px" height="100px" >
+              </div>
+              <div class="icn-text">
+                <p class="lead">Lorem Ipsum chỉ đơn giản là một đoạn văn bản giả, được dùng vào việc trình bày và dàn trang phục vụ cho in ấn. Lorem Ipsum đã được sử dụng như một văn bản chuẩn cho ngành công nghiệp in ấn</p>
+                <div class="testimonial-meta pt-half">
+                  <strong class="testimonial-name test_name">Mark Jance</strong>
+                  <span class="testimonial-name-divider"> / </span>
+                  <span class="testimonial-company test_company">Facebook</span>
+               </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+      <div class="body6">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3">
+              <h2 class="loai">NÓN 3/4</h2>
+              <div class="col">
+                <img src="images/mg1122.jpg" width="97px" height="97px">
+                <div class="box-text">
+                  <div class="ttsp">
+                    <a href=""><p class="tensp">Royal M14 V.2</p></a>
+                    <span class="price">1,300,000 ₫</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <img src="images/nonbaohiemroyalm08tem15.jpg" width="97px" height="97px">
+                <div class="box-text">
+                  <div class="ttsp">
+                    <a href=""><p class="tensp">Royal M08 V.1</p></a>
+                    <span class="price">1,050,000 ₫</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <img src="images/mg7356.jpg" width="97px" height="97px">
+                <div class="box-text">
+                  <div class="ttsp">
+                    <a href=""><p class="tensp">Royal M139 Design</p></a>
+                    <span class="price">685,000 ₫</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <img src="images/mg6915-1.jpg" width="97px" height="97px">
+                <div class="box-text">
+                  <div class="ttsp">
+                    <a href=""><p class="tensp">Royal M139 Design</p></a>
+                    <span class="price">1,500,000 ₫</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <h2 class="loai">NÓN FULLFACE</h2>             
+              <div class="col">
+                <img src="images/nonbaohiemroyalm08tem15.jpg" width="97px" height="97px">
+                <div class="box-text">
+                  <div class="ttsp">
+                    <a href=""><p class="tensp">Royal M08 V.1</p></a>
+                    <span class="price">1,050,000 ₫</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <img src="images/mg1122.jpg" width="97px" height="97px">
+                <div class="box-text">
+                  <div class="ttsp">
+                    <a href=""><p class="tensp">Royal M14 V.2</p></a>
+                    <span class="price">1,300,000 ₫</span>
+                  </div>
+                </div>
+              </div>            
+              <div class="col">
+                <img src="images/mg6915-1.jpg" width="97px" height="97px">
+                <div class="box-text">
+                  <div class="ttsp">
+                    <a href=""><p class="tensp">Royal M139 Design</p></a>
+                    <span class="price">1,500,000 ₫</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <img src="images/mg7356.jpg" width="97px" height="97px">
+                <div class="box-text">
+                  <div class="ttsp">
+                    <a href=""><p class="tensp">Royal M139 Design</p></a>
+                    <span class="price">685,000 ₫</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <h2 class="loai">PHỤ KIỆN</h2>             
+              <div class="col">
+                <img src="images/kinhthang2.jpg" width="97px" height="97px">
+                <div class="box-text">
+                  <div class="ttsp">
+                    <a href=""><p class="tensp">Kính thẳng</p></a>
+                    <span class="price">180,000 ₫</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <img src="images/kinhday1.jpg" width="97px" height="97px">
+                <div class="box-text">
+                  <div class="ttsp">
+                    <a href=""><p class="tensp">Kính dây</p></a>
+                    <span class="price">100,000 ₫</span>
+                  </div>
+                </div>
+              </div>            
+              <div class="col">
+                <img src="images/kinhcong1.jpg" width="97px" height="97px">
+                <div class="box-text">
+                  <div class="ttsp">
+                    <a href=""><p class="tensp">Kính Bubblen</p></a>
+                    <span class="price">180,000 ₫</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <img src="images/mg0888.jpg" width="97px" height="97px">
+                <div class="box-text">
+                  <div class="ttsp">
+                    <a href=""><p class="tensp">Kính mặt nạ</p></a>
+                    <span class="price">350,000 ₫</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <h2 class="loai">KHUYẾN MÃI</h2>             
+              <div class="col">
+                <div class="swiper mySwiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <a href=""><img class="khuyenmai" src="images/banner.jpg"></a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href=""><img class="khuyenmai" src="images/banner.jpg"></a>
+                    </div>                  
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="body7">
+        <div class="container">
+          <div class="tintuc">
+            <h2 class="tentintuc">TIN TỨC</h2>
+            <div class="swiper tin">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href=""><img class="anhtintuc" src="images/NEW-Black-MASEI-IRONMAN-S-t-Ng-i-n-ng-i-m-b-o-hi-m.jpg_640x640.jpg"/>
+                    <div class="blog-post">
+                      <h5 class="post-title is-large ">SỰ KIỆN TẠI ĐẠI NAM DỊP LỄ 30/04 &amp; 01/05</h5>
+                      <div class="post-meta is-small op-8">8 Tháng Ba, 2018</div>
+                      <div class="is-divider"></div>
+                      <p class="from_the_blog_excerpt ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus, massa non viverra ...					</p>
+                    </div></a>
+                </div>
+                <div class="swiper-slide">
+                  <a href=""><img class="anhtintuc" src="images/yamaha.jpg"/>
+                    <div class="blog-post">
+                      <h5 class="post-title is-large ">ĐỔI MŨ BẢO HIỂM CŨ LẤY MỚI TRỢ GIÁ 100K</h5>
+                      <div class="post-meta is-small op-8">8 Tháng Ba, 2018</div>
+                      <div class="is-divider"></div>
+                      <p class="from_the_blog_excerpt ">LDonec tempus eu ligula sed blandit. Vivamus vel enim ac quam iaculis rutrum. ...					</p>
+                    </div></a>
+                </div>
+                <div class="swiper-slide">
+                  <a href=""><img class="anhtintuc" src="images/image008_1.jpg"/>
+                    <div class="blog-post">
+                      <h5 class="post-title is-large ">KHÁM PHÁ NHỮNG CUNG ĐƯỜNG TREKKING</h5>
+                      <div class="post-meta is-small op-8">8 Tháng Ba, 2018</div>
+                      <div class="is-divider"></div>
+                      <p class="from_the_blog_excerpt ">n rutrum tempus purus, ut euismod dui facilisis ac. Fusce semper dignissim diam ...					</p>
+                    </div></a>
+                </div>
+                <div class="swiper-slide">
+                  <a href=""><img class="anhtintuc" src="images/8-7-20150-623133080-3523-1436345296.jpg"/>
+                    <div class="blog-post">
+                      <h5 class="post-title is-large ">M134C BỨC PHÁ ĐẦY TRẺ TRUNG VÀ MẠNH MẼ</h5>
+                      <div class="post-meta is-small op-8">8 Tháng Ba, 2018</div>
+                      <div class="is-divider"></div>
+                      <p class="from_the_blog_excerpt ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus, massa non viverra ...					</p>
+                    </div></a>
+                </div>
+                <div class="swiper-slide">
+                  <a href=""><img class="anhtintuc" src="images/kinh-nghiem-di-xe-may-tren-duong-phuot.jpg"/>
+                    <div class="blog-post">
+                      <h5 class="post-title is-large ">LỜI KHUYÊN CHO CÁC BẠN ĐI PHƯỢT</h5>
+                      <div class="post-meta is-small op-8">8 Tháng Ba, 2018</div>
+                      <div class="is-divider"></div>
+                      <p class="from_the_blog_excerpt ">In rutrum tempus purus, ut euismod dui facilisis ac. Fusce semper dignissim diam ...					</p>
+                    </div></a>
+                </div>
+                <div class="swiper-slide">
+                  <a href=""><img class="anhtintuc" src="images/tet-nguyen-dan-1.jpg"/>
+                    <div class="blog-post">
+                      <h5 class="post-title is-large ">ĐI PHƯỢT CẦN ĐEM THEO GÌ</h5>
+                      <div class="post-meta is-small op-8">8 Tháng Ba, 2018</div>
+                      <div class="is-divider"></div>
+                      <p class="from_the_blog_excerpt ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus, massa non viverra ...					</p>
+                    </div></a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next tin"></div>
+            <div class="swiper-button-prev tin"></div>
+          </div>
+        </div>
+      </div>
+      <div class="body8">
+        <div class="logo">
+          <img src="images/logo-01-1.png" width="240px" height="100px">
+          <img src="images/logo-02-1.png" width="240px" height="100px">
+          <img src="images/logo-03-1.png" width="240px" height="100px">
+          <img src="images/logo-04-1.png" width="240px" height="100px">
+          <img src="images/logo-05-1.png" width="240px" height="100px">
+        </div>
+      </div>
+      <div class="footer1">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="from">
+              <input type="email" class="email" name="emai-dang-ki" placeholder="Email....">
+              <input type="submit" value="ĐĂNG KÝ" class="nut">
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="all-icon">
+              <a href="" class="icon"><i class="fab fa-facebook"></i></a>
+              <a href="" class="icon"><i class="fab fa-instagram"></i></a>
+              <a href="" class="icon"><i class="fab fa-twitter"></i></a>
+              <a href="" class="icon"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer2">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3">
+              <h3 class="namedv">Liên hệ</h3>
+              <div class="thongtin">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>319 C16 Lý Thường Kiệt, Phường 15, Quận 11, Tp.HCM</p>
+              </div>
+              <div class="thongtin">
+                <i class="fas fa-mobile-alt"></i>
+                <p>076 922 0162</p>
+              </div>
+              <div class="thongtin">
+                <i class="fas fa-envelope-open-text"></i>
+                <p>demonhunterg@gmail.com
+                  mon@mona.media</p>
+              </div>
+              <div class="thongtin">
+                <i class="fab fa-skype"></i>
+                <p>demonhunterp</p>
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <h3 class="namedv">Menu</h3>
+              <div class="menuitem">
+                <a href=""><p>Giới thiệu</p></a>
+              </div>
+              <div class="menuitem">
+                <a href=""><p>Cửa hàng</p></a>
+              </div>
+              <div class="menuitem">
+                <a href=""><p>Tin tức</p></a>
+              </div>
+              <div class="menuitem">
+                <a href=""><p>Liên hệ</p></a>
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <h3 class="namedv">Tài khoản</h3>
+              <div class="menuitem">
+                <a href=""><p>My account</p></a>
+              </div>
+              <div class="menuitem">
+                <a href=""><p>Kiểm tra đơn hàng</p></a>
+              </div>
+              <div class="menuitem">
+                <a href=""><p>Thanh toán</p></a>
+              </div>
+              <div class="menuitem">
+                <a href=""><p>Giỏ hàng</p></a>
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <h3 class="namedv">Dịch vụ</h3>
+              <div class="menuitem">
+                <a href=""><p>Giới thiệu</p></a>
+              </div>
+              <div class="menuitem">
+                <a href=""><p>Cửa hàng</p></a>
+              </div>
+              <div class="menuitem">
+                <a href=""><p>Tin tức</p></a>
+              </div>
+              <div class="menuitem">
+                <a href=""><p>Liên hệ</p></a>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <h3 class="namedv">Đăng ký</h3>
+              <div class="thongtin">
+                <p>Đăng ký để nhận được được thông tin mới nhất từ chúng tôi.</p>
+              </div>
+              <div class="thongtin">
+                <input class="mail" type="text" placeholder="Email..."/>
+                <button type="button" class="gui" ><i class="fas fa-paper-plane"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer3">
+        <div class="copyright-footer">
+          © Bản quyền thuộc về . Thiết kế website <img src="images/logo-mona.png" style="width:20px;vertical-align:sub;" alt="MonaMedia"> <a href=" " title="Mona Media"><strong>Mona Media</strong></a>      </công></div>
+      </div>
+    </div>
+
+      
+    
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0 /js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <script src="js/bootstrap.min.js"></script>
+ <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+ <script src="js/js.js"></script>
+ <script>
+  $(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+  });
+  const sp = JSON.parse(localStorage.getItem('dsGioHang'));
+  var spHTML = chuyenDSSPsangHTMLtrangchu(sp);
+  var spanProducts = document.getElementById("dsspan-icon");
+  spanProducts.innerHTML = spHTML;
+  var HTML = chuyendsspthanhHTML(sp);
+  var nodeProducts = document.getElementById("gh-danhsach");
+  nodeProducts.innerHTML = HTML;
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kính Bubble</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
+    <link href="fontawesome-free-5.15.4-web/css/all.min.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+</head>
+<body>
+<div class="header"> 
+    <div class="header1">
+        <div class="container">
+            <div class="top">
+                <div class="left">
+                    <a href="#" class="htop1" title="mon@mona.media">
+                        <i class="fas fa-envelope"></i>
+                        <span>mon@mona.media</span>
+                    </a>
+                    <a href="#" class="htop1"  title="1900 636 648">
+                        <i class="fas fa-phone"></i>
+                        <span>1900 636 648</span>
+                    </a>
+                </div>
+                <div class="right">
+                    <a href="#" class="htop1">
+                        <span>Đăng nhập</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>     
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+      <div class="container">
+          <div class="header2">
+              <div class="logo">
+                  <span><a href="Trangchu.html">
+                      <img src="images/logo-nonson-1.png" width="169px" height="58px">
+                  </a></span>
+              </div>
+              <ul class="nav navbar-nav">                  
+                  <li><a href="Trangchu.html">Trang chủ</a></li>
+                  <li ><a href="TrangGioiThieu.html">Giới thiệu</a></li>
+                  <li class="dropdow active"><a href="TrangSanPham.html">Sản phẩm <i class="fas fa-angle-down"></i></a>
+                    <ul class="dropmenu">
+                      <li><a href="">Nón 3/4</a><br></li>
+                      <li><a href="">Nón Full Face</a></li>
+                      <li><a href="">Nón lật cầm</a></li>
+                      <li><a href="">Nón trẻ em</a></li>
+                      <li><a href="">Nón Carbon</a></li>
+                      <li><a href="">Phụ kiện</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="TrangTinTuc.html">Tin tức</a></li>
+                  <li><a href="TrangLienHe.html">Liên hệ</a></li>
+              </ul>
+              <ul class="search-drive">
+                <li><a href="#"><i class="fas fa-search"></i></a></li>
+                <li class="header-divider"></li>
+                <li>
+                  <div id="button" data-toggle="tooltip" data-placement="right" title="Giỏ hàng">
+                      <i class="fas fa-shopping-cart"></i>
+                      <span id="mini"></span>
+                  </div>
+                  <div id="thongbaorong">Chưa có sản phẩm nào trong giỏ hàng</div>
+                  <div id="mini-list-product">
+                    <div id="dsspan-icon">
+                    </div>
+                    <div class="span-icon">
+                      <div class="alltongphu">
+                        <strong>Tổng phụ:</strong>
+                        <span class="woocommerce-Price-amount amount"><span id="tongphu"></span>
+                        <span class="woocommerce-Price-currencySymbol">. 000₫</span></span>
+                      </div>
+                      <div class="linkgiohang">
+                        <a href="TrangGioHang.html" class="xemgh">XEM GIỎ HÀNG</a>
+                      </div>
+                      <div class="linkthanhtoan">
+                        <a href="TrangGioHang.html" class="thanhtoan">THANH TOÁN</a>
+                      </div>
+                    </div>
+                  </div>                   
+                </li>
+            </ul>
+          </div>
+      </div>
+    </nav>      
+    <div class="container-fluid">
+        <div class="container">
+            <div class="ctsanpham">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="anhct">
+                            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="images/kinhcong1.jpg" id="anhsp" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/m20kinhcong1-300x300.jpg" />
+                                </div>                              
+                            </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                            <div thumbsSlider="" class="swiper spSwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="minislide">
+                                            <img src="images/kinhcong1.jpg" />
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="minislide">
+                                            <img src="images/m20kinhcong1-300x300.jpg" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-sm-6">
+                        <nav class="breadcrum">
+                            <a href="Trangchu.html">
+                                TRANG CHỦ
+                            </a>
+                            <div class="diviver">/</div>
+                            <a href="">PHỤ KIỆN</a>
+                        </nav>
+                        <h1 class="product-title">
+                            <span  id="tensp">Kính Bubble</span>                          
+                        </h1>
+                        <div class="is-divider"></div>
+                        <p class="price product-page-price ">
+                            <span class="woocommerce-Price-amount amount"><span id="giasp">180.000</span>
+                            <span class="woocommerce-Price-currencySymbol">₫</span></span>
+                        </p>
+                        <form class="cart">
+                            <div class="quantity buttons_added">
+                                <input type="button" value="-" class="minus is-form" onclick="reduce()">	
+                                <input type="number" id="soluongsp" class="input-text qty text" step="1" min="1" max="9999" name="quantity" value="1" title="SL" size="4" pattern="[0-9]*" inputmode="numeric" aria-labelledby="Kính Bubble số lượng">
+                                <input type="button" value="+" class="plus is-form" onclick="increase()">	
+                            </div>
+                            <button type="button" class="addgiohang" onclick="themgiohang()">THÊM VÀO GIỎ</button>
+                        </form>
+                        <div class="row doitac">
+                            <div class="col-sm-5">
+                              <p><strong>Tính phí ship tự động</strong></p>
+                                <div class="row">
+                                    <div class="col-sm-4 ">
+                                        <div class="logodoitac">
+                                            <a href=""><img src="images/logo-ghn.jpg" width="92px" height="46px"></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="logodoitac">
+                                            <a href=""><img src="images/logo-ghtk.jpg"width="92px" height="46px"></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="logodoitac">
+                                            <a href=""><img src="images/logo-ninja-van.jpg"width="92px" height="46px"></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="logodoitac">
+                                            <a href=""><img src="images/logo-shipchung.jpg"width="92px" height="46px"></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="logodoitac">
+                                            <a href=""><img src="images/logo-viettle-post.jpg"width="92px" height="46px"></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="logodoitac">
+                                            <a href=""><img src="images/logo-viettle-post.jpg"width="92px" height="46px"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+
+                            </div>
+                            <div class="col-sm-5">
+                                <p><strong>Thanh toán</strong></p>
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="logodoitac">
+                                            <a href=""><img src="images/logo-ghn.jpg" width="92px" height="46px"></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="logodoitac">
+                                            <a href=""><img src="images/logo-ghtk.jpg"width="92px" height="46px"></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="logodoitac">
+                                            <a href=""><img src="images/logo-ninja-van.jpg"width="92px" height="46px"></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="logodoitac">
+                                            <a href=""><img src="images/logo-shipchung.jpg"width="92px" height="46px"></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="logodoitac">
+                                            <a href=""><img src="images/logo-viettle-post.jpg"width="92px" height="46px"></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="logodoitac">
+                                            <a href=""><img src="images/logo-viettle-post.jpg"width="92px" height="46px"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p><strong>"Hãy trở thành Affilicate của chúng tôi để tìm thêm thu nhập thụ động, kiếm tiền online"</strong></p>
+                        <div class="dkaff">
+                          <a href="" class="button primary lowercase">
+                            <span>Đăng ký Affilicate</span>
+                          </a>
+                        </div>
+                        <div class="product_meta">
+                            <span class="posted_in">Danh mục: <a href="" class="phu">Phụ kiện</a></span>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="danhgia">
+                <a href="" class="nutdahngia"> Đánh giá (0)</a>
+                <h3 class="normal">Đánh giá</h3>             
+                <p class="woocommerce-noreviews">Chưa có đánh giá nào.</p>
+            </div>
+            <div class="nhanxet">
+                <form>
+                    <div class="form-group">
+                      <h3 id="reply-title" class="comment-reply-title">Hãy là người đầu tiên nhận xét “Kính Bubble” <small><a rel="nofollow" id="cancel-comment-reply-link" href="/nonson/san-pham/kinh-bubble/#respond" style="display:none;">Hủy</a></small></h3>
+                    </div>
+                    <div class="form-group">
+                      <div class="comment-form-rating"><label for="rating">Đánh giá của bạn</label>
+                        <p class="stars"><span>
+                          <a class="star-1" href="#"><i class="fas fa-star"></i></a>
+                          <a class="star-2" href="#"><i class="fas fa-star"></i><i class="fas fa-star"></i></a>
+                          <a class="star-3" href="#"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></a>
+                          <a class="star-4" href="#"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></a>
+                          <a class="star-5" href="#"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></a>
+                        </span></p><select name="rating" id="rating" required="" style="display: none;">
+                        <option value="">Xếp hạng…</option>
+                        <option value="5">Rất tốt</option>
+                        <option value="4">Tốt</option>
+                        <option value="3">Trung bình</option>
+                        <option value="2">Không tệ</option>
+                        <option value="1">Rất tệ</option>
+                      </select></div>
+                    </div>
+                    <div class="form-group">
+                      <label for="comment">Nhận xét của bạn&nbsp;<span class="required">*</span></label>
+                      <input type="text" class="form-control" id="inputnhanxet" placeholder="">
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="author">Tên&nbsp;<span class="required">*</span></label>
+                        <input type="text" class="form-control" id="inputname" placeholder="">
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="author">Email&nbsp;<span class="required">*</span></label>
+                        <input type="email" class="form-control" id="inputemail" placeholder="">
+                      </div>
+                    </div>
+                    <button type="submit" class="gui">GỬI ĐI</button>
+                  </form>
+            </div>
+            <div class="sptuongtu">
+                <h1 class="page-title">SẢN PHẨM TƯƠNG TỰ</h3>
+                <div id="banchay" class="container tab-pane active"><br>
+                    <div class="swiper sptt">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide tuongtu">
+                          <a href=""><img src="images/kinhday1.jpg" width="216px" height="216px" ></a>
+                          <div class="an"><img src="images/m20kinhday-300x300.jpg" width="216px" height="216px"></div>
+                          <div class="ttsp">
+                            <a href=""><p class="tensp">Kính dây</p></a>
+                            <span class="price">100,000 ₫</span>
+                          </div>
+                        </div>    
+                      </div>
+                      <div class="swiper-button-next"></div>
+                      <div class="swiper-button-prev"></div>
+                    </div>        
+                  </div>
+            </div>
+        </div>
+        </div>
+        <div class="footer1">
+        <div class="row">
+            <div class="col-sm-6">
+            <div class="from">
+                <input type="email" class="email" name="emai-dang-ki" placeholder="Email....">
+                <input type="submit" value="ĐĂNG KÝ" class="nut">
+            </div>
+            </div>
+            <div class="col-sm-6">
+            <div class="all-icon">
+                <a href="" class="icon"><i class="fab fa-facebook"></i></a>
+                <a href="" class="icon"><i class="fab fa-instagram"></i></a>
+                <a href="" class="icon"><i class="fab fa-twitter"></i></a>
+                <a href="" class="icon"><i class="fab fa-youtube"></i></a>
+            </div>
+            </div>
+        </div>
+        </div>
+        <div class="footer2">
+        <div class="container">
+            <div class="row">
+            <div class="col-sm-3">
+                <h3 class="namedv">Liên hệ</h3>
+                <div class="thongtin">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>319 C16 Lý Thường Kiệt, Phường 15, Quận 11, Tp.HCM</p>
+                </div>
+                <div class="thongtin">
+                <i class="fas fa-mobile-alt"></i>
+                <p>076 922 0162</p>
+                </div>
+                <div class="thongtin">
+                <i class="fas fa-envelope-open-text"></i>
+                <p>demonhunterg@gmail.com
+                    mon@mona.media</p>
+                </div>
+                <div class="thongtin">
+                <i class="fab fa-skype"></i>
+                <p>demonhunterp</p>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <h3 class="namedv">Menu</h3>
+                <div class="menuitem">
+                <a href=""><p>Giới thiệu</p></a>
+                </div>
+                <div class="menuitem">
+                <a href=""><p>Cửa hàng</p></a>
+                </div>
+                <div class="menuitem">
+                <a href=""><p>Tin tức</p></a>
+                </div>
+                <div class="menuitem">
+                <a href=""><p>Liên hệ</p></a>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <h3 class="namedv">Tài khoản</h3>
+                <div class="menuitem">
+                <a href=""><p>My account</p></a>
+                </div>
+                <div class="menuitem">
+                <a href=""><p>Kiểm tra đơn hàng</p></a>
+                </div>
+                <div class="menuitem">
+                <a href=""><p>Thanh toán</p></a>
+                </div>
+                <div class="menuitem">
+                <a href=""><p>Giỏ hàng</p></a>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <h3 class="namedv">Dịch vụ</h3>
+                <div class="menuitem">
+                <a href=""><p>Giới thiệu</p></a>
+                </div>
+                <div class="menuitem">
+                <a href=""><p>Cửa hàng</p></a>
+                </div>
+                <div class="menuitem">
+                <a href=""><p>Tin tức</p></a>
+                </div>
+                <div class="menuitem">
+                <a href=""><p>Liên hệ</p></a>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <h3 class="namedv">Đăng ký</h3>
+                <div class="thongtin">
+                <p>Đăng ký để nhận được được thông tin mới nhất từ chúng tôi.</p>
+                </div>
+                <div class="thongtin">
+                <input class="mail" type="text" placeholder="Email..."/>
+                <button type="button" class="gui" ><i class="fas fa-paper-plane"></i></button>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+        <div class="footer3">
+        <div class="copyright-footer">
+            © Bản quyền thuộc về . Thiết kế website <img src="images/logo-mona.png" style="width:20px;vertical-align:sub;" alt="MonaMedia"> <a href=" " title="Mona Media"><strong>Mona Media</strong></a>      </công></div>
+        </div>
+    </div>
+
+      
+    
+</div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0 /js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <script src="js/bootstrap.min.js"></script>
+ <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+ <script src="js/js.js"></script>
+ <script>
+    $(document).ready(function(){
+      $('[data-toggle="popover"]').popover();   
+    });
+    const sp = JSON.parse(localStorage.getItem('dsGioHang'));
+    var spHTML = chuyenDSSPsangHTMLtrangchu(sp);
+    var spanProducts = document.getElementById("dsspan-icon");
+    spanProducts.innerHTML = spHTML;
+    var HTML = chuyendsspthanhHTML(sp);
+    var nodeProducts = document.getElementById("gh-danhsach");
+    nodeProducts.innerHTML = HTML;
+    </script>
+
+</body>
+</html>

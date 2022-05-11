@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tin tức</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
+    <link href="fontawesome-free-5.15.4-web/css/all.min.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+</head>
+<body>
+<div class="header"> 
+    <div class="header1">
+        <div class="container">
+            <div class="top">
+                <div class="left">
+                    <a href="#" class="htop1" title="mon@mona.media">
+                        <i class="fas fa-envelope"></i>
+                        <span>mon@mona.media</span>
+                    </a>
+                    <a href="#" class="htop1"  title="1900 636 648">
+                        <i class="fas fa-phone"></i>
+                        <span>1900 636 648</span>
+                    </a>
+                </div>
+                <div class="right">
+                    <a href="#" class="htop1">
+                        <span>Đăng nhập</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>     
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+      <div class="container">
+          <div class="header2">
+              <div class="logo">
+                  <span><a href="#">
+                      <img src="images/logo-nonson-1.png" width="169px" height="58px">
+                  </a></span>
+              </div>
+              <ul class="nav navbar-nav">                  
+                  <li><a href="Trangchu.html">Trang chủ</a></li>
+                  <li><a href="TrangGioiThieu.html">Giới thiệu</a></li>
+                  <li class="dropdow"><a href="TrangSanPham.html">Sản phẩm <i class="fas fa-angle-down"></i></a>
+                    <ul class="dropmenu">
+                      <li><a href="">Nón 3/4</a><br></li>
+                      <li><a href="">Nón Full Face</a></li>
+                      <li><a href="">Nón lật cầm</a></li>
+                      <li><a href="">Nón trẻ em</a></li>
+                      <li><a href="">Nón Carbon</a></li>
+                      <li><a href="">Phụ kiện</a></li>
+                    </ul>
+                  </li>
+                  <li class="active"><a href="TrangTinTuc.html">Tin tức</a></li>
+                  <li><a href="TrangLienHe.html">Liên hệ</a></li>
+              </ul>
+              <ul class="search-drive">
+                <li><a href="#"><i class="fas fa-search"></i></a></li>
+                <li class="header-divider"></li>
+                <li>
+                  <div id="button" data-toggle="tooltip" data-placement="right" title="Giỏ hàng">
+                      <i class="fas fa-shopping-cart"></i>
+                      <span id="mini"></span>
+                  </div>
+                  <div id="thongbaorong">Chưa có sản phẩm nào trong giỏ hàng</div>
+                  <div id="mini-list-product">
+                    <div id="dsspan-icon">
+                    </div>
+                    <div class="span-icon">
+                      <div class="alltongphu">
+                        <strong>Tổng phụ:</strong>
+                        <span class="woocommerce-Price-amount amount"><span id="tongphu"></span>
+                        <span class="woocommerce-Price-currencySymbol">. 000₫</span></span>
+                      </div>
+                      <div class="linkgiohang">
+                        <a href="TrangGioHang.html" class="xemgh">XEM GIỎ HÀNG</a>
+                      </div>
+                      <div class="linkthanhtoan">
+                        <a href="TrangGioHang.html" class="thanhtoan">THANH TOÁN</a>
+                      </div>
+                    </div>
+                  </div>                   
+                </li>
+            </ul>
+          </div>
+      </div>
+    </nav>      
+    <div class="container-fluid">
+        <div class="bodytintuc">
+            <h1 class="page-title">TIN TỨC</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="timkiem">
+                            <nav class="navbar navbar-expand-sm navbar-dark">
+                                <form class="form-inline" action="/action_page.php">
+                                  <input class="form-control" type="text" placeholder="Tìm kiếm">
+                                  <button class="btn btn-success" type="submit"><i class="fas fa-search"></i></button>
+                                </form>
+                              </nav>
+                        </div>
+                        <div class="baivietmoi">
+                            <div class="baiviettitle">
+                                <span>BÀI VIẾT MỚI</span>
+                            </div>
+                            <div class="baiviettext">
+                                <div class="anhbv"><img src="images/NEW-Black-MASEI-IRONMAN-S-t-Ng-i-n-ng-i-m-b-o-hi-m.jpg_640x640.jpg" height="36px" width="36px" style="border-radius: 999px;"></div>
+                                <div class="textbv"><a href="">SỰ KIỆN TẠI ĐẠI NAM DỊP LỄ 30/04 & 01/05</a></div>
+                            </div>
+                            <div class="baiviettext">
+                                <div class="anhbv"><img src="images/yamaha.jpg" height="36px" width="36px" style="border-radius: 999px;"></div>
+                                <div class="textbv"><a href="">ĐỔI MŨ BẢO HIỂM CŨ LẤY MỚI TRỢ GIÁ 100K</a></div>
+                            </div>
+                            <div class="baiviettext">
+                                <div class="anhbv"><img src="images/image008_1.jpg" height="36px" width="36px" style="border-radius: 999px;"></div>
+                                <div class="textbv"><a href="">KHÁM PHÁ NHỮNG CUNG ĐƯỜNG</a></div>
+                            </div>
+                            <div class="baiviettext">
+                                <div class="anhbv"><img src="images/8-7-20150-623133080-3523-1436345296.jpg" height="36px" width="36px" style="border-radius: 999px;"></div>
+                                <div class="textbv"><a href="">M134C BỨC PHÁ ĐẦY TRẺ TRUNG VÀ MẠNH MẼ</a></div>
+                            </div>
+                            <div class="baiviettext">
+                                <div class="anhbv"><img src="images/kinh-nghiem-di-xe-may-tren-duong-phuot.jpg" height="36px" width="36px" style="border-radius: 999px;"></div>
+                                <div class="textbv"><a href="">LỜI KHUYÊN CHO CÁC BẠN ĐI PHƯỢT</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1">
+                        <div class="dive"></div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="baiviettintuc">
+                                    <a href="">
+                                        <div class="anhtintuc">
+                                            <img src="images/NEW-Black-MASEI-IRONMAN-S-t-Ng-i-n-ng-i-m-b-o-hi-m.jpg_640x640.jpg" width="300px" height="218px"/>
+                                        </div>
+                                        <div class="blog-post">
+                                          <h5 class="post-title is-large ">SỰ KIỆN TẠI ĐẠI NAM DỊP LỄ 30/04 &amp; 01/05</h5>
+                                          <div class="is-divider"></div>
+                                          <p class="from_the_blog_excerpt ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus, massa non viverra ...					</p>
+                                        </div>
+                                        <div class="badge">
+                                            <div class="badge-inner">
+                                                <span class="post-date-day">08</span><br>
+                                                <span class="post-date-month is-xsmall">Th3</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="baiviettintuc">
+                                    <a href="">
+                                        <div class="anhtintuc">
+                                            <img src="images/yamaha.jpg" width="300px" height="218px"/>
+                                        </div>
+                                        <div class="blog-post">
+                                          <h5 class="post-title is-large ">ĐỔI MŨ BẢO HIỂM CŨ LẤY MỚI TRỢ GIÁ 100K</h5>
+                                          <div class="is-divider"></div>
+                                          <p class="from_the_blog_excerpt ">Donec tempus eu ligula sed blandit. Vivamus vel enim ac quam iaculis rutrum. Sed nisi ...					</p>
+                                        </div>
+                                        <div class="badge">
+                                            <div class="badge-inner">
+                                                <span class="post-date-day">08</span><br>
+                                                <span class="post-date-month is-xsmall">Th3</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="baiviettintuc">
+                                    <a href="">
+                                        <div class="anhtintuc">
+                                            <img src="images/image008_1.jpg" width="300px" height="218px"/>
+                                        </div>
+                                        <div class="blog-post">
+                                          <h5 class="post-title is-large ">KHÁM PHÁ NHỮNG CUNG ĐƯỜNG TREKKING</h5>
+                                          <div class="is-divider"></div>
+                                          <p class="from_the_blog_excerpt ">n rutrum tempus purus, ut euismod dui facilisis ac. Fusce semper dignissim diam a egestas. ...					</p>
+                                        </div>
+                                        <div class="badge">
+                                            <div class="badge-inner">
+                                                <span class="post-date-day">08</span><br>
+                                                <span class="post-date-month is-xsmall">Th3</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="baiviettintuc">
+                                    <a href="">
+                                        <div class="anhtintuc">
+                                            <img src="images/8-7-20150-623133080-3523-1436345296.jpg" width="300px" height="218px"/>
+                                        </div>
+                                        <div class="blog-post">
+                                          <h5 class="post-title is-large ">M134C BỨC PHÁ ĐẦY TRẺ TRUNG VÀ MẠNH MẼ</h5>
+                                          <div class="is-divider"></div>
+                                          <p class="from_the_blog_excerpt ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus, massa non viverra consequat, tellus ...					</p>
+                                        </div>
+                                        <div class="badge">
+                                            <div class="badge-inner">
+                                                <span class="post-date-day">08</span><br>
+                                                <span class="post-date-month is-xsmall">Th3</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="baiviettintuc">
+                                    <a href="">
+                                        <div class="anhtintuc">
+                                            <img src="images/kinh-nghiem-di-xe-may-tren-duong-phuot.jpg" width="300px" height="218px"/>
+                                        </div>
+                                        <div class="blog-post">
+                                          <h5 class="post-title is-large ">LỜI KHUYÊN CHO CÁC BẠN ĐI PHƯỢT</h5>
+                                          <div class="is-divider"></div>
+                                          <p class="from_the_blog_excerpt ">In rutrum tempus purus, ut euismod dui facilisis ac. Fusce semper dignissim diam a egestas. ...					</p>
+                                        </div>
+                                        <div class="badge">
+                                            <div class="badge-inner">
+                                                <span class="post-date-day">08</span><br>
+                                                <span class="post-date-month is-xsmall">Th3</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="baiviettintuc">
+                                    <a href="">
+                                        <div class="anhtintuc">
+                                            <img src="images/tet-nguyen-dan-1.jpg" width="300px" height="218px"/>
+                                        </div>
+                                        <div class="blog-post">
+                                          <h5 class="post-title is-large ">ĐI PHƯỢT CẦN ĐEM THEO GÌ</h5>
+                                          <div class="is-divider"></div>
+                                          <p class="from_the_blog_excerpt ">In lobortis erat orci, at viverra leo lobortis non. Pellentesque at augue ac lectus fermentum ...					</p>
+                                        </div>
+                                        <div class="badge">
+                                            <div class="badge-inner">
+                                                <span class="post-date-day">08</span><br>
+                                                <span class="post-date-month is-xsmall">Th3</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer1">
+        <div class="row">
+            <div class="col-sm-6">
+            <div class="from">
+                <input type="email" class="email" name="emai-dang-ki" placeholder="Email....">
+                <input type="submit" value="ĐĂNG KÝ" class="nut">
+            </div>
+            </div>
+            <div class="col-sm-6">
+            <div class="all-icon">
+                <a href="" class="icon"><i class="fab fa-facebook"></i></a>
+                <a href="" class="icon"><i class="fab fa-instagram"></i></a>
+                <a href="" class="icon"><i class="fab fa-twitter"></i></a>
+                <a href="" class="icon"><i class="fab fa-youtube"></i></a>
+            </div>
+            </div>
+        </div>
+        </div>
+        <div class="footer2">
+        <div class="container">
+            <div class="row">
+            <div class="col-sm-3">
+                <h3 class="namedv">Liên hệ</h3>
+                <div class="thongtin">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>319 C16 Lý Thường Kiệt, Phường 15, Quận 11, Tp.HCM</p>
+                </div>
+                <div class="thongtin">
+                <i class="fas fa-mobile-alt"></i>
+                <p>076 922 0162</p>
+                </div>
+                <div class="thongtin">
+                <i class="fas fa-envelope-open-text"></i>
+                <p>demonhunterg@gmail.com
+                    mon@mona.media</p>
+                </div>
+                <div class="thongtin">
+                <i class="fab fa-skype"></i>
+                <p>demonhunterp</p>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <h3 class="namedv">Menu</h3>
+                <div class="menuitem">
+                <a href=""><p>Giới thiệu</p></a>
+                </div>
+                <div class="menuitem">
+                <a href=""><p>Cửa hàng</p></a>
+                </div>
+                <div class="menuitem">
+                <a href=""><p>Tin tức</p></a>
+                </div>
+                <div class="menuitem">
+                <a href=""><p>Liên hệ</p></a>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <h3 class="namedv">Tài khoản</h3>
+                <div class="menuitem">
+                <a href=""><p>My account</p></a>
+                </div>
+                <div class="menuitem">
+                <a href=""><p>Kiểm tra đơn hàng</p></a>
+                </div>
+                <div class="menuitem">
+                <a href=""><p>Thanh toán</p></a>
+                </div>
+                <div class="menuitem">
+                <a href=""><p>Giỏ hàng</p></a>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <h3 class="namedv">Dịch vụ</h3>
+                <div class="menuitem">
+                <a href=""><p>Giới thiệu</p></a>
+                </div>
+                <div class="menuitem">
+                <a href=""><p>Cửa hàng</p></a>
+                </div>
+                <div class="menuitem">
+                <a href=""><p>Tin tức</p></a>
+                </div>
+                <div class="menuitem">
+                <a href=""><p>Liên hệ</p></a>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <h3 class="namedv">Đăng ký</h3>
+                <div class="thongtin">
+                <p>Đăng ký để nhận được được thông tin mới nhất từ chúng tôi.</p>
+                </div>
+                <div class="thongtin">
+                <input class="mail" type="text" placeholder="Email..."/>
+                <button type="button" class="gui" ><i class="fas fa-paper-plane"></i></button>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+        <div class="footer3">
+        <div class="copyright-footer">
+            © Bản quyền thuộc về . Thiết kế website <img src="images/logo-mona.png" style="width:20px;vertical-align:sub;" alt="MonaMedia"> <a href=" " title="Mona Media"><strong>Mona Media</strong></a>      </công></div>
+        </div>
+    </div>
+
+      
+    
+</div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0 /js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <script src="js/bootstrap.min.js"></script>
+ <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+ <script src="js/js.js"></script>
+ <script>
+    $(document).ready(function(){
+      $('[data-toggle="popover"]').popover();   
+    });
+    const sp = JSON.parse(localStorage.getItem('dsGioHang'));
+    var spHTML = chuyenDSSPsangHTMLtrangchu(sp);
+    var spanProducts = document.getElementById("dsspan-icon");
+    spanProducts.innerHTML = spHTML;
+    var HTML = chuyendsspthanhHTML(sp);
+    var nodeProducts = document.getElementById("gh-danhsach");
+    nodeProducts.innerHTML = HTML;
+    </script>
+
+</body>
+</html>
