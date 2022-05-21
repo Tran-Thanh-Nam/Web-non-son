@@ -3,4 +3,6 @@
 - Sử dụng javascrip để làm Swiper và lưu sản phẩm vô giỏ hàng.
 - Lấy tên sp, số lượng và giá sản phẩm đã chọn và lưu xuống localStorage.
 - Sau khi lưu xuống thì cập nhật thông tin lên trên menu icon của giỏ hàng
-![image](https://user-images.githubusercontent.com/101527833/169647879-04567984-6e94-4963-980d-69402ececbc7.png)
+- Trang chủ:
+- <img src="[https://...](https://user-images.githubusercontent.com/101527833/169648174-adcb9770-949a-4093-9eab-67032072fe5b.png)" alt="..." width="250" />
+  
