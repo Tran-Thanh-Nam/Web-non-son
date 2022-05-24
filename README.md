@@ -1,14 +1,17 @@
 # Web-non-son
+## HTML, Css, JavasCript, Boostrap, lưu dữ liệu vào Local Storage
+* Mô tả:
 - Thiết kế và chia Layout + làm đẹp giao diện với HTML, Css và Boostrap
 - Sử dụng javascrip để làm Swiper và lưu sản phẩm vô giỏ hàng.
 - Lấy tên sp, số lượng và giá sản phẩm đã chọn và lưu xuống localStorage.
-- Sau khi lưu xuống thì cập nhật thông tin lên trên menu icon của giỏ hàng
+- Sau khi lưu xuống thì cập nhật thông tin lên trên menu icon của giỏ hàng.
+
 - Giao diện trang chủ:
-- 
+
   <img src="https://user-images.githubusercontent.com/101527833/170023478-1e41660e-9684-4429-b204-eba211492538.png" width="500px" />
   
 - Giao diện trang sản phẩm:
-- 
+
   <img src="https://user-images.githubusercontent.com/101527833/170105137-c01b138c-f729-42c0-9be6-656fee399377.png" width="500px" />
   
 - Giao diện trang chi tiết sản phảm:
