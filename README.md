@@ -5,8 +5,7 @@
 - Sau khi lưu xuống thì cập nhật thông tin lên trên menu icon của giỏ hàng
 - Giao diện trang chủ:
   + sử dụng thẻ Swiper.
- ![image](https://user-images.githubusercontent.com/101527833/170019738-2ac7fefd-e67f-4b24-9e17-340bcb26b229.png)
-
+  
 
   
 
