@@ -6,7 +6,7 @@
 - Giao diện trang chủ:
   + sử dụng thẻ Swiper.
   
-  ![TrangChuFont](https://user-images.githubusercontent.com/101527833/170023478-1e41660e-9684-4429-b204-eba211492538.png)
+  ![TrangChuFont](https://user-images.githubusercontent.com/101527833/170023478-1e41660e-9684-4429-b204-eba211492538.png with="500px")
 
   
 
