@@ -1,6 +1,6 @@
 # Web-non-son
-** HTML, Css, JavasCript, Boostrap, lưu dữ liệu vào Local Storage
-* Mô tả:
+## HTML, Css, JavasCript, Boostrap, lưu dữ liệu vào Local Storage
+**Mô tả:
 - Thiết kế và chia Layout + làm đẹp giao diện với HTML, Css và Boostrap
 - Sử dụng javascrip để làm Swiper và lưu sản phẩm vô giỏ hàng.
 - Lấy tên sp, số lượng và giá sản phẩm đã chọn và lưu xuống localStorage.
